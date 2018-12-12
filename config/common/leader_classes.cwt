@@ -1,0 +1,33 @@
+## BHG, incomplete
+
+types = {
+	type[leader_class] = {
+		path = "game/common/leader_classes"
+	}
+}
+
+leader_class = {
+	## Determiners for what the leader can do
+	can_lead_navy = bool
+	can_lead_army = bool
+	can_research = bool
+	can_govern_planets = bool
+	can_rule_empire = bool
+	
+	## Number of traits the leader class can have
+	max_trait_points = int
+	
+	## Recruitement Cost and Upkeep
+	resources = {
+		category = 
+		cost = {
+			
+		}
+		upkeep = {
+		
+		}
+	}
+	
+	## Category for placement in the Leaders UI
+	default_category = 
+}
